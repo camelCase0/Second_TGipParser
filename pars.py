@@ -45,6 +45,11 @@ def is_proxy_working(proxy):
     
 urls = ["https://t.me/s/psaldriikwjl","https://t.me/s/uwwixgqsfulbhw"]
 
+GREEN = "\033[32m"
+RED = "\033[31m"
+RESET = "\033[0m"
+YELLOW = "\033[33m"
+
 f = open("proxy.txt", "r")
 proxies = f.readlines()
 
@@ -62,15 +67,15 @@ for url in urls:
     proxies.append(proxy_address)
     try:
         response = requests.get(url, proxies=proxy_dict)
-        print(response)
+        # print(response)
 
         if response.status_code != 200:
-            print(f"Failed to retrieve {url} using proxy: {proxy_address}")
+            print(f"{RED}[-]{RESET} Failed to retrieve {url} using proxy: {proxy_address}")
             continue
             
-        print(f"Successfully parsed {url} using proxy: {proxy_address}")
+        print(f"{GREEN}[+]{RESET} Successfully parsed {url} using proxy: {proxy_address}")
         
-        print(response.content)
+        # print(response.content)
         soup = BeautifulSoup(response.content, "html.parser")
         arr_find = soup.findAll("div", class_="tgme_widget_message_text js-message_text")
         print(arr_find)
@@ -84,14 +89,14 @@ for url in urls:
         for id, ip in enumerate(ip_addresses):
             ip_addresses[id] = re.sub(r'[^\d]', ".", ip)
 
-        print(ip_addresses)
+        print(f"Result for {YELLOW}{url}: {ip_addresses}{RESET}")
         serialized_data = json.dumps(ip_addresses)
 
         database_file = "my_database.db"
         table_name = "telegrams"
         column_names = ["address", "ip"]
         values = [url, serialized_data]
-        
+
         write_data_to_sqlite(database_file, table_name, column_names, values)
         
     except requests.exceptions.RequestException as e:
