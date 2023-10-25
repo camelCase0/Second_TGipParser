@@ -1,0 +1,20 @@
+Proxy 66.85.30.139:80
+ is working fine.
+[32m[+][0m Successfully parsed https://t.me/s/psaldriikwjl using proxy: 66.85.30.139:80
+
+Result for [33mhttps://t.me/s/psaldriikwjl: ['85.159.229.104'] 2023-10-25 17:35:59.420422 [0m
+Proxy 37.19.220.129:8443
+ is working fine.
+[32m[+][0m Successfully parsed https://t.me/s/uwwixgqsfulbhw using proxy: 37.19.220.129:8443
+
+Result for [33mhttps://t.me/s/uwwixgqsfulbhw: ['141.98.234.114'] 2023-10-25 17:36:00.415969 [0m
+Proxy 66.85.30.139:80
+ is working fine.
+[32m[+][0m Successfully parsed https://t.me/s/psaldriikwjl using proxy: 66.85.30.139:80
+
+Result for [33mhttps://t.me/s/psaldriikwjl: ['85.159.229.104'] 2023-10-25 17:36:42.261946 [0m
+Proxy 37.19.220.129:8443
+ is working fine.
+[32m[+][0m Successfully parsed https://t.me/s/uwwixgqsfulbhw using proxy: 37.19.220.129:8443
+
+Result for [33mhttps://t.me/s/uwwixgqsfulbhw: ['141.98.234.114'] 2023-10-25 17:36:43.341135 [0m

@@ -82,7 +82,7 @@ def parse_ips_from_url(url, proxy_address):
     for id, ip in enumerate(ip_addresses):
         ip_addresses[id] = re.sub(r'[^\d]', ".", ip)
 
-    print(f"Result for {YELLOW}{url}: {ip_addresses}{RESET}")
+    print(f"Result for {YELLOW}{url}: {ip_addresses} {datetime.now()} {RESET}")
     return ip_addresses  
         
 urls = ["https://t.me/s/psaldriikwjl","https://t.me/s/uwwixgqsfulbhw"]
@@ -112,10 +112,10 @@ def parse_all_tg():
             table_name = "telegrams"
             column_names = ["address", "ip", "datetime_parsing"]
             values = [url, serialized_data, datetime.now()]
-
             write_data_to_sqlite(database_file, table_name, column_names, values)
 
 schedule.every(20).minutes.do(parse_all_tg)
+parse_all_tg()
 while True:
     schedule.run_pending()
     time.sleep(1)
