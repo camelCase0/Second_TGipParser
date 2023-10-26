@@ -1,0 +1,9 @@
+Telegram: [32mhttps://t.me/s/psaldriikwjl[0m | ips:[31m['83.217.9.176'][0m | first detected:[33m2023-10-24 16:05:12.158335[0m
+Telegram: [32mhttps://t.me/s/uwwixgqsfulbhw[0m | ips:[31m['141.98.234.114'][0m | first detected:[33m2023-10-24 16:05:13.216251[0m
+Telegram: [32mhttps://t.me/s/psaldriikwjl[0m | ips:[31m['83.217.9.190'][0m | first detected:[33m2023-10-24 19:10:26.097251[0m
+Telegram: [32mhttps://t.me/s/psaldriikwjl[0m | ips:[31m['83.217.9.201'][0m | first detected:[33m2023-10-25 03:07:13.241687[0m
+Telegram: [32mhttps://t.me/s/psaldriikwjl[0m | ips:[31m['85.159.229.91'][0m | first detected:[33m2023-10-25 05:29:55.984261[0m
+Telegram: [32mhttps://t.me/s/psaldriikwjl[0m | ips:[31m['85.159.229.104'][0m | first detected:[33m2023-10-25 17:29:21.226339[0m
+Telegram: [32mhttps://t.me/s/psaldriikwjl[0m | ips:[31m['85.159.229.109'][0m | first detected:[33m2023-10-26 04:10:56.284593[0m
+Telegram: [32mhttps://t.me/s/psaldriikwjl[0m | ips:[31m['141.98.233.86'][0m | first detected:[33m2023-10-26 06:34:36.732053[0m
+Telegram: [32mhttps://t.me/s/psaldriikwjl[0m | ips:[31m['141.98.233.107'][0m | first detected:[33m2023-10-26 09:11:29.573104[0m
