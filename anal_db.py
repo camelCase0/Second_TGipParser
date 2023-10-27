@@ -74,10 +74,10 @@ with open('res_anal5.json', 'a+') as file:
         # file.write(strochka)
         
         
-        for ip in ips:
-            host = h.view(ip)
-            # print(host)
-            json.dump(host,file,indent=4)
+        # for ip in ips:
+        #     host = h.view(ip)
+        #     # print(host)
+        #     json.dump(host,file,indent=4)
 
 
 
